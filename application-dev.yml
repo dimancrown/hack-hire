@@ -4,7 +4,7 @@ server:
 management:
   endpoints:
     web:
-      base-path: /cos/hk/v1/master-records
+      base-path: /xxx/xxx
 info:
   app:
     name: @project.name@
@@ -15,13 +15,13 @@ spring:
   jpa:
     properties:
       hibernate:
-        default_schema: coseg_dev
+        default_schema: xxx
         show_sql: true
         temp:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
   datasource:
-    url: jdbc:postgresql://cosegdb-development.c2xwsmr3mbpf.eu-west-1.rds.amazonaws.com:5401/cosegdb
+    url: jdbc:postgresql://xxxx
     username: db_admin
     password: admin123    
     hikari:
